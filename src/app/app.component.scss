@@ -1,0 +1,94 @@
+.centralization{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d1d1d;
+
+
+section {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+    
+
+  h1 {
+    color: #d4d4d2;
+  }
+  .calculadora {
+    display: flex;
+    width: 180px;
+    background-color: #1d1d1d;
+    padding: 1rem;
+    border: 5px solid dimgray;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    #display {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      background-color: transparent;
+      color: #fff;
+      width: 90%;
+      height: 1.5rem;
+      margin-bottom: 1rem;
+      font-size: 30px;
+      max-width: 90%;
+    }
+    .lines {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      .line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        .zero {
+          display: flex;
+          justify-content: flex-start;
+          color: #ff9604;
+          border: none;
+          width: 5.6rem;
+          padding-left: 1rem;
+        }
+
+        .num {
+          background-color: #343134;
+          color: white;
+          border: none;
+        }
+
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 3rem;
+          width: 40px;
+          height: 40px;
+          background-color: #d4d4d2;
+          color: black;
+          border: none;
+          font-size: 20px;
+          font-weight: 300;
+          cursor: pointer;
+        }
+        #igu {
+          background-color: #ff9604;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+}
